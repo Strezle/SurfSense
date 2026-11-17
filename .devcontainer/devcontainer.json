@@ -1,0 +1,9 @@
+{
+  "name": "SurfSense Lern-Server",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "32gb"
+  },
+  "postStartCommand": "bash -c 'cp -n .env.example .env || true; docker compose up -d'"
+}
